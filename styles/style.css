@@ -151,3 +151,10 @@ nav {
   color: var(--dark-4);
   font-family: "Inter", serif;
 }
+.see-more {
+  color: var(--pri-c);
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: right;
+  padding-top: 3rem;
+}
