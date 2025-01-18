@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -92,4 +92,62 @@ nav {
   margin-top: 6rem;
   border-top: 1px solid #ececec;
   border-bottom: 1px solid #ececec;
+}
+
+/* ===== popular-collection ===== */
+.popular-collection {
+  margin-top: 6rem;
+  padding: 0 3rem;
+}
+.section-heading {
+  padding-bottom: 3rem;
+  text-align: center;
+}
+.section-heading h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.pc-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.pc-card {
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.pc-card img {
+  width: 100%;
+}
+.pc-card h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--dark-2);
+}
+.pc-card h4 {
+  font-family: "Inter", serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 8px 0;
+  color: var(--dark-3);
+}
+.rating {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  font-family: "Roboto", serif;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+  color: var(--dark-6);
+  font-weight: 600;
+}
+.star i {
+  color: #fb8200;
+}
+.pc-card p {
+  color: var(--dark-4);
+  font-family: "Inter", serif;
 }
