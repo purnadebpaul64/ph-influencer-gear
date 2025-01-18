@@ -6,7 +6,40 @@
   box-sizing: border-box;
 }
 body {
-  max-width: 1280px;
+  max-width: 1440px;
   padding: 0 80px;
   font-family: "Poppins", serif;
+  margin: 0 auto;
+}
+
+:root {
+  --pri-c: #e02c6d;
+  --sec-c: #0a0826;
+  --dark-1: #3a3a3a;
+  --dark-2: #18191f;
+  --dark-3: rgba(0, 0, 0, 0.87);
+  --dark-4: #787885;
+  --dark-5: rgba(94, 99, 102, 1);
+  --dark-6: #6c6c6c;
+}
+
+/* ===== Navigation section ===== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+.nav-links ul {
+  display: flex;
+  gap: 2rem;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: var(--dark-1);
+  font-weight: 500;
+  font-size: 1rem;
 }
