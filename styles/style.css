@@ -82,3 +82,14 @@ nav {
   z-index: -1;
   position: absolute;
 }
+
+/* ===== Company Logos ===== */
+.company-logos {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 2rem 4rem;
+  align-items: center;
+  margin-top: 6rem;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
